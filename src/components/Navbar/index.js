@@ -1,5 +1,6 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavLogo} from './NavbarElements';
+import {FaBars} from 'react-icons/fa'
+import {Nav, NavbarContainer, NavItem, NavLinks, NavLogo, NavMenu, MobileIcon} from './NavbarElements';
 
 const Navbar = () => {
     return (
@@ -8,6 +9,12 @@ const Navbar = () => {
                 <NavbarContainer>
                     <NavLogo to='/'>julia
                     </NavLogo>
+                    <FaBars />
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to='about'></NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
         </>
