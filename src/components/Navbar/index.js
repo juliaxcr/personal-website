@@ -7,12 +7,22 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>julia
-                    </NavLogo>
-                    <FaBars />
+                    <NavLogo to='/'>julia</NavLogo>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='about'></NavLinks>
+                            <NavLinks to='about'>About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='projects'>Projects</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='photography'>Photography</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to='contact'>Contact</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
