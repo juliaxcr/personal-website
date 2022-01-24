@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SlideContainer = styled.div`
-  color: #9C8D73;
+  color: #9c8d73;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#2C1811")};
 
   @media screen and (max-width: 768px) {
@@ -22,16 +22,16 @@ export const SlideWrapper = styled.div`
 `;
 
 export const SlideRow = styled.div`
-    display: grid;
-    grid-auto-columns: minmax(auto, 1fr);
-    align-items: center;
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col2 col1` : `'col1 col2`};
+  display: grid;
+  grid-auto-columns: minmax(auto, 1fr);
+  align-items: center;
+  grid-template-areas: ${({ imgStart }) =>
+    (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) =>
-          imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-    }
+  @media screen and (max-width: 768px) {
+    grid-template-areas: ${({ imgStart }) =>
+      (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+  }
 `;
 
 export const Column1 = styled.div`
