@@ -4,8 +4,8 @@ import { Link as LinkS } from "react-scroll"; // link scroll
 
 export const Nav = styled.nav`
   background: transparent;
-  height: 80px;
-  // margin-top: -80px;
+  height: 60px;
+  margin-top: -100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
 
-  @media screenn and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
 `;
