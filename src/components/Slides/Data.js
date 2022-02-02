@@ -7,5 +7,5 @@ export const homeObjOne = {
   headline: "Hi, I'm Julia!",
   description: "Senior studying economics-statistics at Barnard College, Columbia University.",
   imgStart: true,
-//   img: require("../../images/svg-1.png"),
+  img: require("../../images/me.png"),
 };
