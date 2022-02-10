@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SlideContainer = styled.div`
   color: #9c8d73;
-  background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#2C1811")};
+  background: ${({ lightBg }) => (lightBg ? "#7d9aa8" : "#7d9aa8")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -64,10 +64,10 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 50px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#9C8D73" : "#2C1811")};
+  color: ${({ lightText }) => (lightText ? "#FFFFFF" : "#FFFFFF")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,9 +77,9 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "#2C1811" : "#9C8D73")};
+  font-size: 25px;
+  line-height: 25px;
+  color: ${({ darkText }) => (darkText ? "#FFFFFF" : "#FFFFFF")};
 `;
 
 export const ImgWrap = styled.div`
