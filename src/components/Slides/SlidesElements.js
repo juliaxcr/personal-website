@@ -92,3 +92,4 @@ export const Img = styled.img`
     margin: 60px 10px 100px 10px;
     padding-right: 0;
 `;
+
