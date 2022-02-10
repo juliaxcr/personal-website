@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SlideContainer = styled.div`
   color: #9c8d73;
-  background: ${({ lightBg }) => (lightBg ? "#7d9aa8" : "#7d9aa8")};
+  background: ${({ lightBg }) => (lightBg ? "#F0F0F0" : "#F0F0F0")};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #FFFFFF;
+  color: #8E1E1E;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -67,7 +67,7 @@ export const Heading = styled.h1`
   font-size: 50px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#FFFFFF" : "#FFFFFF")};
+  color: ${({ lightText }) => (lightText ? "#000000" : "#000000")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -79,7 +79,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 25px;
-  color: ${({ darkText }) => (darkText ? "#FFFFFF" : "#FFFFFF")};
+  color: ${({ darkText }) => (darkText ? "#000000" : "#000000")};
 `;
 
 export const ImgWrap = styled.div`
