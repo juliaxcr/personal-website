@@ -75,7 +75,7 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
+  max-width: 500px;
   margin-bottom: 35px;
   font-size: 25px;
   line-height: 25px;
@@ -88,7 +88,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    width: 100%
-    margin: 0 0 10px 0;
+    width: 1500%;
+    margin: 60px 10px 100px 10px;
     padding-right: 0;
 `;

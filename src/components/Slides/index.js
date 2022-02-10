@@ -13,7 +13,7 @@ import {
   TopLine,
 } from "./SlidesElements";
 
-const Slides = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, img, alt}) => {
+const Slides = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description1, description2, description3, img, alt}) => {
   return (
     <>
       <SlideContainer lightBg={lightBg} id={id}>
@@ -28,7 +28,9 @@ const Slides = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, 
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>{description1}</Subtitle>
+                <Subtitle darkText={darkText}>{description2}</Subtitle>
+                <Subtitle darkText={darkText}>{description3}</Subtitle>
               </TextWrapper>
             </Column2>
           </SlideRow>
