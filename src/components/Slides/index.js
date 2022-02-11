@@ -21,11 +21,11 @@ const Slides = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, 
           <SlideRow imgStart={imgStart}>
             <Column1>
               <ImgWrap>
-              <Img src={img} alt={alt}/>
+              <Img src={img} alt={alt} imgStart={imgStart}/>
               </ImgWrap>
             </Column1>
             <Column2>
-              <TextWrapper>
+              <TextWrapper imgStart={imgStart}>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description1}</Subtitle>

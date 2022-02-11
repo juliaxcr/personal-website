@@ -50,6 +50,10 @@ export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
+  margin-left: ${({ imgStart }) =>
+  (imgStart ? "-100px" : "100px")};
+  margin-right: ${({ imgStart }) =>
+  (imgStart ? "50px" : "0px")};
 `;
 
 export const TopLine = styled.p`
@@ -89,7 +93,7 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     width: 1500%;
-    margin: 60px 10px 100px 10px;
-    padding-right: 0;
+    margin: ${({ imgStart }) =>
+      (imgStart ? "50px 10px 100px 0px" : "60px 10px 100px -300px")};
 `;
 

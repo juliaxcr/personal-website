@@ -20,18 +20,18 @@ export const homeObjTwo = {
   topLine: "Projects",
   headline: "Columbia Buy-Sell-Trade",
   description1: "Built a mobile (iOS and Android) marketplace app on which Columbia students can purchase, sell, and trade goods and services.",
-  imgStart: true,
+  imgStart: false,
   img: require("../../images/columbia-buy-sell.png"),
 };
 
-export const homeObjThree = {
-  id: "projects",
-  lightBg: false,
-  lightText: true,
-  lightTextDisc: true,
-  topLine: "Projects",
-  headline: "",
-  description: "Senior studying economics-statistics at Barnard College, Columbia University.",
-  imgStart: true,
-  img: require("../../images/me.png"),
-};
+// export const homeObjThree = {
+//   id: "projects",
+//   lightBg: false,
+//   lightText: true,
+//   lightTextDisc: true,
+//   topLine: "Projects",
+//   headline: "",
+//   description: "Senior studying economics-statistics at Barnard College, Columbia University.",
+//   imgStart: true,
+//   img: require("../../images/me.png"),
+// };
